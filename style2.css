@@ -269,9 +269,6 @@ header a img {
   background: var(--green);
   color: #fff;
 }
-.logo img {
-    width:2.2vw;
-}
 .dishes .box-container .box .fa-heart {
   right: -15rem;
 }

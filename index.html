@@ -67,7 +67,7 @@
                 <div class="sub_about_section1">
 
                     <h3 style="color: #fb5849;">___ ABOUT US</h3>
-                    <h2>We Leave A Delicious Memory For You</h2>
+                    <h2><span id="element">We Leave A Delicious Memory For You</span></h2>
                     <p>Klassy Cafe is one of the best <span>restaurant HTML templates</span> CSS framework. You can
                         download and feel free to use this website template layout for your restaurant business. You are
                         allowed
@@ -252,6 +252,13 @@
             </div>
         </footer>
     </div>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Enjoy the service</i>', 'We Leave A Delicious Memory For You'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 
 </html>

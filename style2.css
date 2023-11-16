@@ -19,6 +19,11 @@
   transition: all .2s linear;
 }
 
+::selection {
+  background-color: #fb5849;
+  color: #fff;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
